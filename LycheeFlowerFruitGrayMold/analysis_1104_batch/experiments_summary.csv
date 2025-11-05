@@ -1,0 +1,11 @@
+﻿实验编号,参数名称,max_depth,min_samples_leaf,使用特征数,最重要特征,最高重要性,规则总数,输出目录
+1,depth3_leaf5,3,5,5,10天累积雨量,0.3506,3,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\03_荔枝霜疫霉并的阈值模型\analysis_1104_batch\analysis_depth3_leaf5
+2,depth4_leaf3,4,3,6,10天累积日照时数,0.3285,5,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\03_荔枝霜疫霉并的阈值模型\analysis_1104_batch\analysis_depth4_leaf3
+3,depth4_leaf2,4,2,7,10天累积日照时数,0.3339,6,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\03_荔枝霜疫霉并的阈值模型\analysis_1104_batch\analysis_depth4_leaf2
+4,depth5_leaf3,5,3,6,10天累积日照时数,0.3285,5,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\03_荔枝霜疫霉并的阈值模型\analysis_1104_batch\analysis_depth5_leaf3
+5,depth5_leaf2,5,2,8,10天累积雨量,0.2673,6,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\03_荔枝霜疫霉并的阈值模型\analysis_1104_batch\analysis_depth5_leaf2
+6,depth6_leaf3,6,3,6,10天累积日照时数,0.3285,5,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\03_荔枝霜疫霉并的阈值模型\analysis_1104_batch\analysis_depth6_leaf3
+7,depth6_leaf2,6,2,8,10天累积雨量,0.2673,6,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\03_荔枝霜疫霉并的阈值模型\analysis_1104_batch\analysis_depth6_leaf2
+8,depth7_leaf3,7,3,6,10天累积日照时数,0.3285,5,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\03_荔枝霜疫霉并的阈值模型\analysis_1104_batch\analysis_depth7_leaf3
+9,depth7_leaf2,7,2,8,10天累积雨量,0.2673,6,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\03_荔枝霜疫霉并的阈值模型\analysis_1104_batch\analysis_depth7_leaf2
+10,depth5_leaf5,5,5,6,10天累积雨量,0.3437,4,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\03_荔枝霜疫霉并的阈值模型\analysis_1104_batch\analysis_depth5_leaf5
