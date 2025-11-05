@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# Excel临时文件
+~$*.xlsx
+~$*.xls
+~$*.docx
+~$*.doc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志文件
+*.log
+
+# 输出目录（根据需要决定是否提交）
+# analysis_1104/
+# analysis_1104_batch/
+# analysis_1105/
+
+# 模型文件（如果较大，建议使用Git LFS）
+# *.pkl
+# models/
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+
+# 压缩包（如果已解压）
+*.zip
+*.rar
+*.7z
+

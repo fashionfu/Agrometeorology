@@ -1,0 +1,91 @@
+================================================================================
+GitHub推送步骤说明
+================================================================================
+
+由于需要将当前项目推送到主仓库 https://github.com/fashionfu/Agrometeorology.git 
+的 LycheeFlowerFruitGrayMold 子目录中，请按照以下步骤操作：
+
+================================================================================
+方法一：在主仓库中创建子目录（推荐）
+================================================================================
+
+步骤1：克隆主仓库
+  git clone https://github.com/fashionfu/Agrometeorology.git
+  cd Agrometeorology
+
+步骤2：创建子目录
+  mkdir -p LycheeFlowerFruitGrayMold
+
+步骤3：复制当前项目的所有文件
+  将当前项目目录（03_荔枝霜疫霉并的阈值模型）的所有文件
+  复制到 Agrometeorology/LycheeFlowerFruitGrayMold/ 目录中
+  （不包括.git目录，如果有的话）
+
+步骤4：添加并提交
+  git add LycheeFlowerFruitGrayMold/
+  git commit -m "Add LycheeFlowerFruitGrayMold: 荔枝霜疫霉花果预警阈值模型"
+  git push origin main
+
+================================================================================
+方法二：在当前项目目录中初始化并推送（如果主仓库是空的）
+================================================================================
+
+步骤1：初始化Git仓库（如果还没有）
+  cd 03_荔枝霜疫霉并的阈值模型
+  git init
+
+步骤2：添加所有文件
+  git add .
+
+步骤3：提交
+  git commit -m "Initial commit: 荔枝霜疫霉花果预警阈值模型"
+
+步骤4：添加远程仓库
+  git remote add origin https://github.com/fashionfu/Agrometeorology.git
+
+步骤5：创建并切换到main分支
+  git checkout -b main
+
+步骤6：推送到远程仓库
+  git push -u origin main
+
+注意：如果使用此方法，需要在GitHub网页上手动创建 LycheeFlowerFruitGrayMold 目录，
+或者使用GitHub的文件上传功能。
+
+================================================================================
+方法三：使用Git子模块（如果主仓库已有其他内容）
+================================================================================
+
+步骤1：在当前项目目录初始化Git
+  cd 03_荔枝霜疫霉并的阈值模型
+  git init
+  git add .
+  git commit -m "Initial commit: 荔枝霜疫霉花果预警阈值模型"
+
+步骤2：在主仓库中添加子模块
+  cd ..
+  git clone https://github.com/fashionfu/Agrometeorology.git
+  cd Agrometeorology
+  
+  # 如果当前项目已有独立的git仓库，可以使用子模块
+  git submodule add <当前项目的git仓库URL> LycheeFlowerFruitGrayMold
+  git commit -m "Add LycheeFlowerFruitGrayMold submodule"
+  git push origin main
+
+================================================================================
+推荐使用方法一
+================================================================================
+
+方法一是最直接和可靠的方式，可以确保文件结构正确。
+
+================================================================================
+验证推送结果
+================================================================================
+
+推送完成后，访问以下URL验证：
+https://github.com/fashionfu/Agrometeorology/tree/main/LycheeFlowerFruitGrayMold
+
+应该能看到项目文件列表和README.md。
+
+================================================================================
+
