@@ -1,0 +1,11 @@
+﻿实验编号,参数名称,max_depth,min_samples_leaf,使用特征数,最重要特征,最高重要性,规则总数,覆盖样本总数,准确样本总数,平均规则准确率,总体准确率,综合评分,输出目录,整体准确率(含未覆盖),总样本数,正确预测数,错误预测数,综合评分_数值
+9,depth7_leaf2,7,2,10,10天累积雨量,0.2692,8,38,38,1.0,1.0,38.0,E:/1106lizhi/analysis_output_batch\analysis_depth7_leaf2,0.9298245614035088,57,53,4,38.0
+7,depth6_leaf2,6,2,9,10天累积雨量,0.2725,7,36,36,1.0,1.0,36.0,E:/1106lizhi/analysis_output_batch\analysis_depth6_leaf2,0.9298245614035088,57,53,4,36.0
+5,depth5_leaf2,5,2,9,10天累积雨量,0.2849,6,32,32,1.0,1.0,32.0,E:/1106lizhi/analysis_output_batch\analysis_depth5_leaf2,0.8947368421052632,57,51,6,32.0
+4,depth5_leaf3,5,3,7,10天累积雨量,0.3881,5,32,31,0.9667,0.9688,31.0,E:/1106lizhi/analysis_output_batch\analysis_depth5_leaf3,0.8596491228070176,57,49,8,31.0
+3,depth4_leaf2,4,2,7,10天累积雨量,0.3335,5,32,30,0.9556,0.9375,30.0,E:/1106lizhi/analysis_output_batch\analysis_depth4_leaf2,0.8421052631578947,57,48,9,30.0
+6,depth6_leaf3,6,3,7,10天累积雨量,0.3831,5,29,29,1.0,1.0,29.0,E:/1106lizhi/analysis_output_batch\analysis_depth6_leaf3,0.8596491228070176,57,49,8,29.0
+8,depth7_leaf3,7,3,7,10天累积雨量,0.3831,5,29,29,1.0,1.0,29.0,E:/1106lizhi/analysis_output_batch\analysis_depth7_leaf3,0.8596491228070176,57,49,8,29.0
+10,depth5_leaf5,5,5,8,10天累积雨量,0.3421,5,32,29,0.9156,0.9062,29.0,E:/1106lizhi/analysis_output_batch\analysis_depth5_leaf5,0.8245614035087719,57,47,10,29.0
+2,depth4_leaf3,4,3,6,10天累积雨量,0.3539,4,29,27,0.9444,0.931,27.0,E:/1106lizhi/analysis_output_batch\analysis_depth4_leaf3,0.8245614035087719,57,47,10,27.0
+1,depth3_leaf5,3,5,5,10天累积雨量,0.4227,3,23,22,0.9722,0.9565,22.0,E:/1106lizhi/analysis_output_batch\analysis_depth3_leaf5,0.7543859649122807,57,43,14,22.0

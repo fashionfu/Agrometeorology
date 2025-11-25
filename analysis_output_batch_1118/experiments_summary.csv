@@ -1,0 +1,11 @@
+﻿实验编号,参数名称,max_depth,min_samples_leaf,强制根节点特征,使用特征数,最重要特征,最高重要性,规则总数,覆盖样本总数,准确样本总数,平均规则准确率,总体准确率,综合评分,输出目录
+1,depth3_leaf5,3,5,7天累积雨量,5,10天累积雨量,0.4227,3,36,28,0.8159,0.7778,28.00,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\荔枝花果霜疫霉\analysis_output_batch_1118\analysis_depth3_leaf5
+2,depth4_leaf3,4,3,7天累积雨量,6,10天累积雨量,0.3539,4,34,31,0.9388,0.9118,31.00,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\荔枝花果霜疫霉\analysis_output_batch_1118\analysis_depth4_leaf3
+3,depth4_leaf2,4,2,7天累积雨量,7,10天累积雨量,0.3335,6,37,34,0.9592,0.9189,34.00,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\荔枝花果霜疫霉\analysis_output_batch_1118\analysis_depth4_leaf2
+4,depth5_leaf3,5,3,7天累积雨量,7,10天累积雨量,0.3881,4,30,30,1.0000,1.0000,30.00,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\荔枝花果霜疫霉\analysis_output_batch_1118\analysis_depth5_leaf3
+5,depth5_leaf2,5,2,7天累积雨量,9,10天累积雨量,0.2849,7,35,35,1.0000,1.0000,35.00,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\荔枝花果霜疫霉\analysis_output_batch_1118\analysis_depth5_leaf2
+6,depth6_leaf3,6,3,7天累积雨量,7,10天累积雨量,0.3831,4,28,28,1.0000,1.0000,28.00,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\荔枝花果霜疫霉\analysis_output_batch_1118\analysis_depth6_leaf3
+7,depth6_leaf2,6,2,7天累积雨量,9,10天累积雨量,0.2725,7,32,32,1.0000,1.0000,32.00,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\荔枝花果霜疫霉\analysis_output_batch_1118\analysis_depth6_leaf2
+8,depth7_leaf3,7,3,7天累积雨量,7,10天累积雨量,0.3831,4,26,26,1.0000,1.0000,26.00,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\荔枝花果霜疫霉\analysis_output_batch_1118\analysis_depth7_leaf3
+9,depth7_leaf2,7,2,7天累积雨量,10,10天累积雨量,0.2692,7,29,29,1.0000,1.0000,29.00,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\荔枝花果霜疫霉\analysis_output_batch_1118\analysis_depth7_leaf2
+10,depth5_leaf5,5,5,7天累积雨量,8,10天累积雨量,0.3421,3,28,28,1.0000,1.0000,28.00,F:\02_MeteorologyWork\02_正式\2025-11月正式工作\荔枝花果霜疫霉\analysis_output_batch_1118\analysis_depth5_leaf5
